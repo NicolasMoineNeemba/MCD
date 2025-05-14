@@ -4,7 +4,7 @@
 
 ## But du repos
 
-CE repos a pour vocation à stocker les modèles conceptuels de données des différents domaines.
+Ce repos a pour vocation à stocker les modèles conceptuels de données des différents domaines.
 
 ## Structure des dossier
 
