@@ -31,24 +31,21 @@
           <mxGeometry y="190" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8NU3V88DJbRs0vllgdv-11" value="&lt;h3&gt;Ligne commande fournisseur&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#99004D;fontColor=light-dark(#fcfcfc, #ededed);" parent="1" vertex="1">
-          <mxGeometry x="1298" y="412.5" width="180" height="220" as="geometry">
+          <mxGeometry x="1298" y="412.5" width="180" height="190" as="geometry">
             <mxRectangle x="-70" y="230" width="210" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N8NU3V88DJbRs0vllgdv-12" value="det_sk (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="N8NU3V88DJbRs0vllgdv-11" vertex="1">
           <mxGeometry y="70" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N8NU3V88DJbRs0vllgdv-13" value="det_ent_sk (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="N8NU3V88DJbRs0vllgdv-11" vertex="1">
+        <mxCell id="N8NU3V88DJbRs0vllgdv-14" value="société" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="N8NU3V88DJbRs0vllgdv-11" vertex="1">
           <mxGeometry y="100" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N8NU3V88DJbRs0vllgdv-14" value="société" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="N8NU3V88DJbRs0vllgdv-11" vertex="1">
+        <mxCell id="N8NU3V88DJbRs0vllgdv-16" value="det_succ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="N8NU3V88DJbRs0vllgdv-11" vertex="1">
           <mxGeometry y="130" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N8NU3V88DJbRs0vllgdv-16" value="det_succ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="N8NU3V88DJbRs0vllgdv-11" vertex="1">
-          <mxGeometry y="160" width="180" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="N8NU3V88DJbRs0vllgdv-17" value="det_agc_sk (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="N8NU3V88DJbRs0vllgdv-11" vertex="1">
-          <mxGeometry y="190" width="180" height="30" as="geometry" />
+          <mxGeometry y="160" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8NU3V88DJbRs0vllgdv-18" value="&lt;h3&gt;Ligne Facture Fournisseur&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#66FF66;" parent="1" vertex="1">
           <mxGeometry x="2238" y="417.5" width="180" height="250" as="geometry">
