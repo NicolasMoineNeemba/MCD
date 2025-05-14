@@ -1,0 +1,26 @@
+stages:
+  - mirror
+
+push_to_github:
+  stage: mirror
+  only:
+    - main
+  script:
+    # Installer ssh si nécessaire (utile en runner Docker)
+    - 'which ssh-agent || (apt-get update -y && apt-get install openssh-client git -y)'
+
+    # Activer l'agent SSH et ajouter la clé privée
+    - eval $(ssh-agent -s)
+    - echo "$GITHUB_SSH_KEY" | tr -d '\r' | ssh-add -
+
+    # Ajouter GitHub à la liste des hôtes connus (pour éviter les erreurs d'auth)
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+    # Cloner le dépôt GitLab en mode bare (pour tout synchroniser)
+    - git clone --bare "$CI_REPOSITORY_URL" repo.git
+    - cd repo.git
+
+    # Pousser vers GitHub en mode miroir
+    - git push --mirror git@github.com:NicolasMoineNeemba/MCD.git
